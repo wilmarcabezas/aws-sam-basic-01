@@ -23,7 +23,6 @@ exports.saveHello = async (event) => {
         body: JSON.stringify(savedItem),
       }
 }
-
 exports.getHello = async (event) => {
     const name = event.queryStringParameters.name;
 
